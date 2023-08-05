@@ -1,19 +1,5 @@
 {{#is "post"}}
     <aside class="gh-article-sidebar">
-
-        <div class="gh-author-image-list">
-            {{#foreach authors}}
-                <a class="gh-author-image" href="{{url}}">
-                    {{#if profile_image}}
-                        <img src="{{profile_image}}" alt="{{name}}">
-                    <!--{{else}}
-                        <div class="gh-author-icon">{{> icons/avatar}}</div>
-                    -->
-                    {{/if}}
-                </a>
-            {{/foreach}}
-        </div>
-
         <div class="gh-author-name-list">
             {{#foreach authors}}
                 <h4 class="gh-author-name">
